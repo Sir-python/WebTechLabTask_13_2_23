@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+</head>
+<body>
+	<h1 align="center">Registration</h1>
+	<form action="Registration.php" novalidate method="get">
+		<table align="center">
+			<tr>
+				<td>
+					<fieldset>
+						  <legend align="center">Registered Info</legend>
+						  <label for="fname">First name:</label>
+			              <input type="text" id="fname" name="fname"><br><br>
+			              <label for="lname">Last name:</label>
+			              <input type="text" id="lname" name="lname"><br><br>
+			              
+			              <label for="fatherName">Father's Name :</label>
+			              <input type="text" id="fatherName" name="fatherName"><br><br>
+			              
+			              <label for="motherName">Mother's Name :</label>
+			              <input type="text" id="motherName" name="motherName"><br><br>
+			              
+			              <label for="gender">Gender :</label>
+			              <input type="radio" id="gender" value="gender" name="gender"> 
+			              <label for="gender">Male</label>
+
+			              <input type="radio" id="gender" value="gender" name="gender"> 
+			              <label for="gender">Female</label>
+			              <input type="radio" id="gender" value="gender" name="gender">
+			              <label for="gender">Other</label><br><br>
+
+			              <label for="DOB">Date of Birth :</label>
+			              <input type="date" id="DOB" name="DOB"><br><br>
+			              <label for="cars">Blood Group :</label>
+
+			            <select name="bloodGroup" id="bloodGroup">
+			              <option value="A+">A+</option>
+			              <option value="A-">A-</option>
+			              <option value="B-">B-</option>
+			              <option value="B+">B+</option>
+			              <option value="AB+">AB+</option>
+			              <option value="AB-">AB-</option>
+			              <option value="O+">O+</option>
+			              <option value="O-">O-</option>
+			            </select>
+
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<fieldset>
+						<legend align="center">Contact Info</legend>
+						<label for="email" align="center">Email:</label>
+			              <input type="email" id="email" name="email"><br><br>
+
+			              <label for="p/m" align="center">Phone/Mobile : </label>
+			              <input type="text" id="p/m" name="p/m"><br><br>
+			              <label for="web" align="center">Website : </label>
+			              <input type="text" id="web" name="web"><br><br>
+			              
+			              <label for="pAddress">Present Address : </label>
+			              <input type="textarea" id="pAddress" name="pAddress"><br><br>
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<fieldset>
+						<legend align="center">Account Info</legend>
+							<label for="userName">UserName : </label>
+              				<input type="text" id="userName" name="userName"><br><br>
+              				<label for="pword">Password : </label>
+             				<input type="password" id="pword" name="pword"><br><br>
+             				<input type="submit" value="submit">
+					</fieldset>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<h3 align="center">If you have an existing account <a href="Login.html">click here</a></h3>
+
+</body>
+</html>
